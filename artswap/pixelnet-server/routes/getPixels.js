@@ -109,6 +109,7 @@ var parseGif = (path,pixelOrder, rotation) => {
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
+  console.log('getpixels')
   var pixelOrder = 'rgb';
   var rotation = 0;
   //led color order
