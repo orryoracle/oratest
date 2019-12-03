@@ -42,7 +42,7 @@ app.post("/", function (req, res, next) {
     //save
     res.cookie("secret", encrypt(setPassword));
     res.send(req.body.redirect);
-  } else {
+  } else { 
     res.send("error");
   }
 });
